@@ -1,0 +1,36 @@
+.gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #f7f7f7;
+}
+
+.gallery-top-text {
+  color: #303030;
+  margin-bottom: 44px;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.gallery-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin: 15px;
+}
+
+/*--------**Формулы для сетки картинок-------*/
+
+/* .gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.gallery-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+} */

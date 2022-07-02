@@ -1,0 +1,52 @@
+.header {
+  position: absolute;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__logo {
+  margin-right: 70px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+.nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav__link,
+.connect__tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  transition: color 300ms ease;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.connect {
+  margin-left: auto;
+}
+
+.nav__link:hover,
+.nav__link:focus,
+.connect__tel:hover,
+.connect__tel:focus {
+  color: var(--accent-color);
+}
+
+.connect__btn {
+  color: var(--main-btn-color);
+  margin-left: 40px;
+}
